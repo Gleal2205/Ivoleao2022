@@ -1,11 +1,11 @@
-#produtos.css
+
 header {
     background: #BBBBBB;
 }
 
 nav li {
     display:inline;
-     margin: 0 0 0  15px
+     margin: 0 0 0  15px;
      padding: 30px 20px;
      box-sizing: border-box;
 }
@@ -32,15 +32,14 @@ nav a:hover{
     text-align: center;
     width:30%;
     vertical-align: top;
-    background:#CCCCCC
+    background:#CCCCCC;
     margin: 0 1.5%;
-    padding: 30px 20px
-    box-sizing:border-box;
-    border-color:#000000;
-    border-width:2px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border-width: 2px;
     border-style:solid #000000;
     border-radius: 10px
-
 }
 
 .produtos li:hover{
@@ -70,13 +69,11 @@ nav a:hover{
  
 .produto-preco{
     font-size: 30px;
-    fony-weight: bold;
+    font-weight: bold;
 }
 
 footer{
-    text-align:center
-    background: url("bg.jpg")
+    text-align:center;
+    background: url("bg.jpg");
     padding: 40px 0;
-
-
 }
