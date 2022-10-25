@@ -65,7 +65,10 @@ nav a:hover{
      font-size: 18px;
 }
     
-
+.imagem {
+    width: 350px;
+    height: 350px;
+}
  
 .produto-preco{
     font-size: 30px;
