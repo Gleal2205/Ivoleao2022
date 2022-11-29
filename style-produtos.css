@@ -1,0 +1,113 @@
+/*NAVEGAÇÃO ENTRE PAGINAS*/
+header{
+    height: 80px;
+    padding: 10px;
+}
+
+.logo {
+  display: inline;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.navegação {
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  float: inherit;
+}
+
+nav ul {
+  display: inline;
+  margin-top: 20px;
+  float: right;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 10px;
+  float: left;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(255, 136, 0);
+  text-decoration: underline;
+}
+
+/* pagina */
+
+body {
+  background: orange;
+}
+
+main{
+    margin: 10px 80px 80px 80px;
+}
+
+.produto{
+  align-items: center;
+  text-align: center;
+  width: 500px;
+  vertical-align: top;
+  background:#CCCCCC;
+  padding: 20px 20px;
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-radius: 10px; 
+  margin: auto;
+}
+
+.produto:hover{
+  border:3px solid #9c6f14;
+  font-size: 20px;
+}
+
+.produto:active{
+  border: 3px solid #088c19;
+}
+
+.produto:hover h2{
+  font-size: 34px;
+}
+
+.produto h2 {
+  font-size: 30px;
+  font-weight:bold;
+}
+
+.produto-descricao {
+   font-size: 18px;
+}
+  
+
+.produto-preco{
+  font-size: 30px;
+  font-weight: bold;
+}
+.imagem{
+    width: 400px;
+    height: 400px;
+}
+
+footer{
+  text-align:center;
+  padding: 40px 0;
+}
+
+
+
+
+

@@ -1,0 +1,106 @@
+/*NAVEGAÇÃO ENTRE PAGINAS*/
+header{
+    height: 80px;
+    padding: 10px;
+}
+.logo {
+  display: inline;
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+
+.navegação {
+  padding: 20px 0;
+}
+
+.caixa {
+  position: relative;
+  width: 600px;
+  margin: 0 auto;
+  float: inherit;
+}
+
+nav ul {
+  display: inline;
+  margin-top: 20px;
+  float: right;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 10px;
+  float: left;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(255, 136, 0);
+  text-decoration: underline;
+}
+
+/*pagina*/
+
+body {
+  background-color: orange;
+}
+
+main {
+    width: 900px;
+    margin: 10px auto;
+}
+
+form {
+    margin: auto;
+    text-align: left;
+
+}
+
+form label{
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+
+}
+
+form input {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+    background-color: rgb(241, 199, 120); 
+}
+form textarea{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+  background-color: rgb(241, 199, 120);
+}
+
+form button{
+  background-color: rgb(241, 199, 120);
+  border: 1px rgb(87, 62, 16);
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+form button:hover{
+  background-color: #9c6f14;
+}
+
+form button:active{
+  background-color: #088c19;
+}
+
+footer{
+  text-align:center;
+  padding: 40px 0;
+}
