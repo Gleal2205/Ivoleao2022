@@ -99,7 +99,7 @@ nav a:hover {
 
  footer {
     text-align: center;
-    background: rgb(111, 245, 183);
+    background: rgb(191, 245, 111);
     padding: 10px 0;
  }
 
@@ -225,7 +225,7 @@ td, th {
 
 .beneficios {
   padding: 3em 0;
-  background: rgb(60, 106, 160);
+  background: rgb(191, 245, 111);
 }
 
 .conteudo-beneficios {
