@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background: rgb(247, 123, 123);
+    background: rgb(23, 97, 146);
     padding: 20px 0;
 }
 
@@ -68,7 +68,7 @@ nav a:hover {
  }
 
 .produtos li:active {
-    border-color: rgb(9, 160, 9);
+    border-color: rgb(29, 15, 105);
 }
 
 .produtos li:hover h2 {
